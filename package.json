@@ -1,18 +1,31 @@
 {
-	"name": "openai-120b-test",
+	"name": "gpt-oss-120b-translator",
 	"version": "1.0.0",
 	"type": "module",
-	"description": "Test script for OpenAI 120B model via Hugging Face router",
-	"main": "test.js",
+	"description": "A powerful translation application powered by GPT-OSS-120B model via Hugging Face router",
+	"main": "server.js",
 	"scripts": {
-		"test": "node test.js",
-		"translate": "node translator.js",
 		"start": "node server.js",
-		"dev": "node server.js"
+		"dev": "node server.js",
+		"translate": "node translator.js"
 	},
+	"keywords": [
+		"translator",
+		"translation",
+		"gpt-oss-120b",
+		"ai",
+		"machine-translation",
+		"huggingface",
+		"openai"
+	],
+	"author": "",
+	"license": "MIT",
 	"dependencies": {
 		"openai": "^4.0.0",
 		"express": "^4.18.2"
+	},
+	"engines": {
+		"node": ">=18.0.0"
 	}
 }
 
